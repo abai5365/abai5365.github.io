@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>图片滤镜示例</title>
+    <style>
+        .filter-example {
+            margin: 20px;
+            border: 1px solid #ddd;
+            display: inline-block;
+        }
+        .filter-example img {
+            width: 100%;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>图片滤镜示例</h1>
+    </header>
+
+    <div class="container">
+        <h2>使用HTML滤镜的图片示例</h2>
+        <p>以下是一些应用了HTML滤镜的图片示例。</p>
+
+        <!-- 滤镜示例 -->
+        <div class="filter-example">
+            <p>原图</p>
+            <img src="res/picture/dog.jpg" alt="原图">
+        </div>
+
+        <div class="filter-example">
+            <p>灰度滤镜</p>
+            <img src="res/picture/dog.jpg" alt="灰度滤镜" style="filter: grayscale(100%);">
+        </div>
+
+        <div class="filter-example">
+            <p>褐色滤镜</p>
+            <img src="res/picture/dog.jpg" alt="褐色滤镜" style="filter: sepia(100%);">
+        </div>
+
+        <div class="filter-example">
+            <p>饱和度滤镜</p>
+            <img src="res/picture/dog.jpg" alt="饱和度滤镜" style="filter: saturate(200%);">
+        </div>
+
+        <!-- 更多滤镜示例可以在这里添加 -->
+    </div>
+</body>
+</html>
