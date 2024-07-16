@@ -9,10 +9,17 @@
             margin: 20px;
             border: 1px solid #ddd;
             display: inline-block;
+            vertical-align: top;
         }
         .filter-example img {
             width: 100%;
             display: block;
+        }
+        .code-snippet {
+            background-color: #f4f4f4;
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-top: 10px;
         }
     </style>
 </head>
@@ -23,30 +30,115 @@
 
     <div class="container">
         <h2>使用HTML滤镜的图片示例</h2>
-        <p>以下是一些应用了HTML滤镜的图片示例。</p>
+        <p>以下是一些应用了HTML滤镜的图片示例及其代码片段。</p>
 
-        <!-- 滤镜示例 -->
+        <!-- 滤镜示例 1 -->
         <div class="filter-example">
             <p>原图</p>
             <img src="res/picture/dog.jpg" alt="原图">
+            <div class="code-snippet">
+                <code>&lt;img src="res/picture/dog.jpg" alt="原图"&gt;</code>
+            </div>
         </div>
 
+        <!-- 滤镜示例 2 -->
         <div class="filter-example">
             <p>灰度滤镜</p>
             <img src="res/picture/dog.jpg" alt="灰度滤镜" style="filter: grayscale(100%);">
+            <div class="code-snippet">
+                <code>&lt;img src="res/picture/dog.jpg" alt="灰度滤镜" style="filter: grayscale(100%);"&gt;</code>
+            </div>
         </div>
 
+        <!-- 滤镜示例 3 -->
         <div class="filter-example">
             <p>褐色滤镜</p>
             <img src="res/picture/dog.jpg" alt="褐色滤镜" style="filter: sepia(100%);">
+            <div class="code-snippet">
+                <code>&lt;img src="res/picture/dog.jpg" alt="褐色滤镜" style="filter: sepia(100%);"&gt;</code>
+            </div>
         </div>
 
+        <!-- 滤镜示例 4 -->
         <div class="filter-example">
             <p>饱和度滤镜</p>
             <img src="res/picture/dog.jpg" alt="饱和度滤镜" style="filter: saturate(200%);">
+            <div class="code-snippet">
+                <code>&lt;img src="res/picture/dog.jpg" alt="饱和度滤镜" style="filter: saturate(200%);"&gt;</code>
+            </div>
         </div>
 
-        <!-- 更多滤镜示例可以在这里添加 -->
+        <!-- 滤镜示例 5 -->
+        <div class="filter-example">
+            <p>模糊滤镜</p>
+            <img src="res/picture/dog.jpg" alt="模糊滤镜" style="filter: blur(5px);">
+            <div class="code-snippet">
+                <code>&lt;img src="res/picture/dog.jpg" alt="模糊滤镜" style="filter: blur(5px);"&gt;</code>
+            </div>
+        </div>
+
+        <!-- 滤镜示例 6 -->
+        <div class="filter-example">
+            <p>对比度滤镜</p>
+            <img src="res/picture/dog.jpg" alt="对比度滤镜" style="filter: contrast(200%);">
+            <div class="code-snippet">
+                <code>&lt;img src="res/picture/dog.jpg" alt="对比度滤镜" style="filter: contrast(200%);"&gt;</code>
+            </div>
+        </div>
+
+        <!-- 滤镜示例 7 -->
+        <div class="filter-example">
+            <p>亮度滤镜</p>
+            <img src="res/picture/dog.jpg" alt="亮度滤镜" style="filter: brightness(150%);">
+            <div class="code-snippet">
+                <code>&lt;img src="res/picture/dog.jpg" alt="亮度滤镜" style="filter: brightness(150%);"&gt;</code>
+            </div>
+        </div>
+
+        <!-- 滤镜示例 8 -->
+        <div class="filter-example">
+            <p>色相旋转滤镜</p>
+                        <img src="res/picture/dog.jpg" alt="色相旋转滤镜" style="filter: hue-rotate(90deg);">
+            <div class="code-snippet">
+                <code>&lt;img src="res/picture/dog.jpg" alt="色相旋转滤镜" style="filter: hue-rotate(90deg);"&gt;</code>
+            </div>
+        </div>
+
+        <!-- 滤镜示例 9 -->
+        <div class="filter-example">
+            <p>反色滤镜</p>
+            <img src="res/picture/dog.jpg" alt="反色滤镜" style="filter: invert(100%);">
+            <div class="code-snippet">
+                <code>&lt;img src="res/picture/dog.jpg" alt="反色滤镜" style="filter: invert(100%);"&gt;</code>
+            </div>
+        </div>
+
+        <!-- 滤镜示例 10 -->
+        <div class="filter-example">
+            <p>透明度滤镜</p>
+            <img src="res/picture/dog.jpg" alt="透明度滤镜" style="filter: opacity(50%);">
+            <div class="code-snippet">
+                <code>&lt;img src="res/picture/dog.jpg" alt="透明度滤镜" style="filter: opacity(50%);"&gt;</code>
+            </div>
+        </div>
+
+        <!-- 滤镜示例 11 -->
+        <div class="filter-example">
+            <p>阴影滤镜</p>
+            <img src="res/picture/dog.jpg" alt="阴影滤镜" style="filter: drop-shadow(8px 8px 10px blue);">
+            <div class="code-snippet">
+                <code>&lt;img src="res/picture/dog.jpg" alt="阴影滤镜" style="filter: drop-shadow(8px 8px 10px blue);"&gt;</code>
+            </div>
+        </div>
+
+        <!-- 滤镜示例 12 -->
+        <div class="filter-example">
+            <p>综合滤镜</p>
+            <img src="res/picture/dog.jpg" alt="综合滤镜" style="filter: grayscale(50%) brightness(150%) contrast(120%);">
+            <div class="code-snippet">
+                <code>&lt;img src="res/picture/dog.jpg" alt="综合滤镜" style="filter: grayscale(50%) brightness(150%) contrast(120%);"&gt;</code>
+            </div>
+        </div>
     </div>
 </body>
 </html>
